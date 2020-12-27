@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.JavascriptException: Message: javascript error: windows is not defined\n  (Session info: chrome=87.0.4280.88)",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "5c9cb141aabaa198",
+        "parentUid" : "c2c06c5d1ec37e49deffa363166dccbb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608497871630,
+          "stop" : 1608497883215,
+          "duration" : 11585
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c2c06c5d1ec37e49deffa363166dccbb"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

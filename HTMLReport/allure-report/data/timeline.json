@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Virus",
+    "children" : [ {
+      "name" : "27800-MainThread",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "5c9cb141aabaa198",
+        "parentUid" : "d8b0c0cd9b4cf64974cea51e5f02be89",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608497871630,
+          "stop" : 1608497883215,
+          "duration" : 11585
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d8b0c0cd9b4cf64974cea51e5f02be89"
+    } ],
+    "uid" : "214a05715c219b7360b314a348346bab"
+  } ]
+}

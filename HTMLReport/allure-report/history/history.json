@@ -1,0 +1,22 @@
+{
+  "f127848f64da69fc3f3a416ef96af29e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5c9cb141aabaa198",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.JavascriptException: Message: javascript error: windows is not defined\n  (Session info: chrome=87.0.4280.88)",
+      "time" : {
+        "start" : 1608497871630,
+        "stop" : 1608497883215,
+        "duration" : 11585
+      }
+    } ]
+  }
+}
