@@ -4,7 +4,7 @@ from selenium.webdriver import Chrome
 #from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 import selenium.webdriver.support.expected_conditions as ec
-import TakeScreenshot
+#from Utilities import test_TakeScreenshot
 import pytest
 import time
 
@@ -12,7 +12,7 @@ import time
 def setup():
     global driver
     #launch Deployd application on chrome
-    path = "C:/Users/Nitin/PycharmProjects/DeploydAutomation/Driver/chromedriver.exe"
+    path = "./Driver/chromedriver.exe"
     driver = Chrome(executable_path=path)
     #driver.set_page_load_timeout(1)
     driver.implicitly_wait(20)
@@ -43,6 +43,6 @@ def test_login(setup):
     #act.move_to_element(driver.find_element_by_xpath("//span[contains(text(),'TUTORIAL')]")).perform()#hover
     assert driver.current_url == "http://dev.compass-deployd.io/analyze/repositories"
 
-    TakeScreenshot.takeScreenshot(driver,"First")
+    #test_TakeScreenshot.test_takeScreenshot(driver,"First")
     #Scroll
     #driver.execute_script("windows.scroll(0,400);")
