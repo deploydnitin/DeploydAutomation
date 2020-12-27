@@ -8,7 +8,7 @@ import TakeScreenshot
 import pytest
 import time
 
-#@pytest.fixture(scope="module")
+@pytest.fixture(scope="module")
 def setup():
     global driver
     #launch Deployd application on chrome
