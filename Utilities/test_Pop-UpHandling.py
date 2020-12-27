@@ -1,4 +1,5 @@
 from selenium.webdriver import Chrome
+
 import logging
 
 log=logging.getLogger(__name__)
@@ -15,7 +16,7 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 handle_warn.setFormatter(formatter)
 handle_info.setFormatter((formatter))
 
-path = "../Driver/chromedriver.exe"
+path = "./Driver/chromedriver.exe"
 driver = Chrome(executable_path=path)
 driver.maximize_window()
 driver.get("https://www.naukri.com")

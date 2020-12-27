@@ -8,11 +8,11 @@ import TakeScreenshot
 import pytest
 import time
 
-@pytest.fixture(scope="module")
+#@pytest.fixture(scope="module")
 def setup():
     global driver
     #launch Deployd application on chrome
-    path = "../Driver/chromedriver.exe"
+    path = "./Driver/chromedriver.exe"
     driver = Chrome(executable_path=path)
     #driver.set_page_load_timeout(1)
     driver.implicitly_wait(20)
